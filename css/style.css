@@ -23,10 +23,8 @@ body{
 .menu-1 h3{
     color: #181818;
     font-family: "Open Sans";
-    font-size: 30px;
-    font-style: normal;
+    font-size: 45px;
     font-weight: 800;
-    line-height: normal;
 }
 .menu-1 span{
     color: #FD6E0A;
@@ -46,11 +44,11 @@ font-weight: 400;
 .common-btn{
     background-color: #FD6E0A;
     color: #FFF !important;
-font-size: 20px;
-font-weight: 700;
+font-size: 20px !important;
+font-weight: 700 !important;
 border-radius: 7px;
 text-decoration: none;
-padding: 10px 20px;
+padding: 10px 20px !important;
 border: none;
 }
 /* menu end */
@@ -131,7 +129,7 @@ font-weight: 700;
 .container{
     display: flex;
     justify-content: center;
-    gap: 15px;
+    gap: 20px;
     margin-bottom: 100px;
 }
 .skill-container{
@@ -193,9 +191,19 @@ footer{
     border: none;
     padding: 18px 30px;
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
 }
 .footer-coloum h2{
     margin-bottom: 20px;
+}
+.footer-coloum p{
+    margin-bottom: 20px;
+    color: #474747;
+font-size: 16px;
+font-weight: 400;
+}
+.social-icon a img{
+    margin-right: 20px;
 }
 /* footer end */
